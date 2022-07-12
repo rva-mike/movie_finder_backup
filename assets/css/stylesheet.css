@@ -6,7 +6,7 @@ font-family: 'Roboto', sans-serif */
 
 
 *{
-    font-family: 'Roboto', sans-serif */
+    font-family: 'Roboto', sans-serif; 
 }
 
 .navbar {
@@ -23,11 +23,6 @@ font-family: 'Roboto', sans-serif */
 }
 
 
-
-.hero {
-    /* width: 50%; */
-}
-
 .rows{
     display: flex;
     flex-direction: column;
@@ -37,7 +32,7 @@ font-family: 'Roboto', sans-serif */
     opacity: 50%;
 }
 
-.saved-movies {
+.saved-movies, .saved-books {
     border-bottom: 1px solid black;
     width: fit-content;
 }
@@ -51,4 +46,14 @@ font-family: 'Roboto', sans-serif */
 .google {
     display: flex;
     justify-content: center;
+}
+
+footer {
+    height: 100px;
+}
+
+input {
+     word-wrap: break-word; 
+     overflow:auto;
+   
 }
